@@ -42,7 +42,13 @@ const SquareArea = () => {
             </div>
             <button className="submit-btn" onClick={() => submitHandler(width, length)}>Find Area</button>
             <div id="output">{output}</div>
-
+            <footer>
+                <a href="https://darcode.netlify.app/" rel="noreferrer" target="_blank"><i class="fas fa-user"></i></a>
+                <a href="https://www.linkedin.com/in/shivani-pothirajan-2b276996/" rel="noreferrer" target="_blank"> <i
+                    class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/Shivani07517015" rel="noreferrer" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:shivanipothorajan@gmail.com"><i class="far fa-envelope"></i></a>
+            </footer>
         </div>
     )
 }
