@@ -8,7 +8,7 @@ const SquareArea = () => {
     const [output, setOutput] = useState('');
 
     function submitHandler(width, length) {
-        if (!isNaN(width) && !isNaN(length)) {
+        if ((!isNaN(width) && !isNaN(length)) && (width > 0 && length > 0)) {
             if (width && length) {
                 let area = width * length;
                 let result = `The Area Of Rectangle is ${area} unit sq.`
