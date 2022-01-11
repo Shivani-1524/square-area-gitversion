@@ -7,7 +7,7 @@ const SquareArea = () => {
     const [length, setLength] = useState('');
     const [output, setOutput] = useState('');
 
-    function submitHandler(width, length) {
+    const submitHandler = (width, length) => {
         if ((!isNaN(width) && !isNaN(length)) && (width > 0 && length > 0)) {
             if (width && length) {
                 let area = width * length;
